@@ -5,7 +5,7 @@ Capstone Project analyzing sample data from the City of Chicago's regulatory dep
 ## About the Data
 
 The data comes from BigQuery's public datasets, but can also be accessed on the City of Chicago's website ([found here](https://data.cityofchicago.org/Transportation/Taxi-Trips-2013-2023-/wrvz-psew)).
-My dataset is a random sample of 1,000,000 observations from the greater whole.
+My dataset is a random sample of 1,000,000 observations from the greater whole. The file "taxi_trim" is an even smaller sample size due to constraints of downloading from Google BigQuery, utilizing the same randomization.
 * **unique_key:** Unique identifier for a specific taxi trip taken
 * **taxi_id:** Anonymous identifier for particular taxi vehicles assigned to a driver
 * **trip_start_timestamp:** Starting date and time of the trip (rounded to nearest 15 minutes)
